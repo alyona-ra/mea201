@@ -159,6 +159,24 @@ main {
         font-size: 19px;
       }
 
+      .buttons {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+
+        button {
+          margin-top: 0;
+        }
+
+        .code {
+          color: $main-pink;
+          text-decoration: none;
+          font-size: 15px;
+          font-weight: bold;
+          margin-left: 25px;
+        }
+      }
+
       button {
         width: 120px;
         height: 35px;
@@ -182,7 +200,7 @@ main {
       .right {
         display: flex;
         align-items: center;
-        
+
         img {
           height: 100px;
           object-fit: cover;
@@ -192,7 +210,7 @@ main {
   }
 
   .social-links-wrapper {
-    height: 90px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

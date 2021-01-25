@@ -304,7 +304,7 @@ main .main-content-wrapper .right .decorative {
 }
 
 main .social-links-wrapper {
-  height: 90px;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +378,7 @@ main .social-links-wrapper a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 90px;
+    width: 60px;
     height: 50px;
     position: initial;
     margin: auto;
